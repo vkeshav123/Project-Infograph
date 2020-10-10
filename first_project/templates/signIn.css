@@ -1,0 +1,40 @@
+
+#Title {
+  color: #457d72;
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+}
+#Subtitle {
+  font-family: Arial;
+  text-align: center;
+}
+
+main {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+
+form {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#submit-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+input {
+  border-color: black;
+  border-radius: 5px;
+  font-size: 18px;
+}
+p {
+  margin: 20px;
+}
