@@ -20,5 +20,5 @@ from infographApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('moosa', views.moosa),
+    path('about', views.info),
 ]

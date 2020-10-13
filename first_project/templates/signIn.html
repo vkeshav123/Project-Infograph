@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
     <title>Sign In Page</title>
-    <!-- <link rel="stylesheet" href="signIn.css" /> -->
+    <link rel="stylesheet" href="{% static 'css/signIn.css' %}"/>
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -44,7 +45,7 @@
     </h4>
     <main>
       <h3 style="margin: 20px">Please Sign In</h3>
-      <form action="/moosa" method="GET">
+      <form action="/about" method="GET">
         <div class="form-group row">
           <label for="inputEmail3" class="col-sm-2 col-form-label"
             >Email Id</label
@@ -92,6 +93,6 @@
       <p>New User ? <a href="signUp.html">Create New Account</a></p>
       <br />
     </main>
-    <!-- <footer>Hello</footer> -->
+    
   </body>
 </html>
