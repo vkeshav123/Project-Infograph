@@ -20,6 +20,6 @@ from infographApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('about', views.info),
-    path('newuser', views.signUpFunc),
+    path('signup/', views.signUpFunc),
+    path('info/', views.info),
 ]
