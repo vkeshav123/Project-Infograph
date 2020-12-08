@@ -1,6 +1,5 @@
 from django.contrib import admin
-from infographApp.models import AccessRecord, Topic, Webpage
+from infographApp.models import Facts, QNA
 # Register your models here.
-admin.site.register(AccessRecord)
-admin.site.register(Topic)
-admin.site.register(Webpage)
+admin.site.register(Facts)
+admin.site.register(QNA)

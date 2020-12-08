@@ -19,7 +19,7 @@ from infographApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index),
-    path('signup/', views.signUpFunc),
-    path('info/', views.info),
+    path('', views.Info.as_view()),
+    path('article/', views.ArticleView.as_view()),
+    # path('article/', views.QNAListView.as_view()),
 ]
